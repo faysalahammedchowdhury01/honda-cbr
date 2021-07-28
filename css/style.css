@@ -21,10 +21,6 @@ body {
   color: #e76f51;
 }
 
-.text-gray {
-  color: #6c6c6c;
-}
-
 .text-gray-light {
   color: #e0e0e0;
 }
@@ -42,4 +38,15 @@ body {
   width: 60px;
   height: 1px;
   background-color: #e76f51;
+}
+
+/* Custom Utility Class (Because it's not available in Bootstrap) */
+@media only screen and (min-width: 992px) {
+  .w-lg-40 {
+    width: 40%;
+  }
+
+  .w-lg-60 {
+    width: 60%;
+  }
 }

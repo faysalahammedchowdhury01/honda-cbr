@@ -66,10 +66,18 @@
           aria-labelledby="purchaseModalLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-dialog-centered">
+          <div
+            class="
+              modal-dialog
+              modal-lg
+              modal-dialog-scrollable
+              modal-dialog-centered
+            "
+          >
             <div class="modal-content">
+              <!-- Modal Header -->
               <div class="modal-header">
-                <h5 class="modal-title" id="purchaseModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="purchaseModalLabel">Overview</h5>
                 <button
                   type="button"
                   class="btn-close"
@@ -77,7 +85,48 @@
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">...</div>
+              <!-- Modal Body -->
+              <div class="modal-body">
+                <div class="d-sm-flex">
+                  <!-- Bike Image -->
+                  <div class="w-lg-40 text-center text-sm-start">
+                    <img src="images/bike-1.png" alt="bike" class="img-fluid" />
+                  </div>
+                  <!-- Bike Info -->
+                  <div class="w-lg-60 mt-4 mt-sm-0 ms-sm-4 flex-grow-1">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <h4 class="h4 fw-bold mb-0">Honda CBR 300R</h4>
+                      <h4 class="h4 fw-bold mb-0 text-secondary">৳5,40,000</h4>
+                    </div>
+                    <p class="text-secondary mb-1"><small>In stock</small></p>
+                    <p class="text-secondary fw-light mb-2">
+                      <strong class="text-dark">BRAND:</strong> HONDA
+                    </p>
+                    <!-- Description -->
+                    <p class="fw-light text-secondary mb-2">
+                      <strong class="text-dark">Description:</strong> CB150R
+                      ExMotion is a new innovation surprise from the Japanese
+                      motorcycle manufacturer Honda. It's a wonderful motorcycle
+                      that combines powerful water-cooled engines and cool
+                      designs.
+                    </p>
+                    <!-- Quantity -->
+                    <div>
+                      <label>Quantity</label>
+                      <select name="Quantity" class="border">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal Footer -->
               <div class="modal-footer">
                 <button
                   type="button"
@@ -86,9 +135,9 @@
                 >
                   Close
                 </button>
-                <button type="button" class="btn btn-primary">
-                  Understood
-                </button>
+                <a href="index.html" class="btn bg-orange text-white">
+                  Buy Now
+                </a>
               </div>
             </div>
           </div>
@@ -105,7 +154,7 @@
         <div class="container px-3 px-sm-0">
           <!-- Section Intro -->
           <div class="section-intro text-center">
-            <h2 class="h1 fw-bold">Fetured Bikes 2021</h2>
+            <h2 class="h2 fw-bold">Fetured Bikes 2021</h2>
             <h6 class="h6 fw-bold text-orange">Best bike collection</h6>
           </div>
           <!-- Featured Bikes -->
@@ -144,7 +193,7 @@
         <div class="container px-3 px-sm-0">
           <!-- Section Intro -->
           <div class="section-intro text-center">
-            <h2 class="h1 fw-bold">Latest News</h2>
+            <h2 class="h2 fw-bold">Latest News</h2>
           </div>
           <!-- Blogs -->
           <div class="row g-3 mt-4">
@@ -157,7 +206,7 @@
                   <!-- Blog Info -->
                   <div class="mt-3">
                     <h4 class="h4 fw-bold">Ducati XDIAVEL S-73</h4>
-                    <p class="mb-4 fw-light text-gray">
+                    <p class="mb-4 fw-light text-secondary">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Lacus, fermentum amet faucibus sed id nisi lectus at.
                     </p>
@@ -181,7 +230,7 @@
                   <!-- Blog Info -->
                   <div class="mt-3">
                     <h4 class="h4 fw-bold">Ducati XDIAVEL S-73</h4>
-                    <p class="mb-4 fw-light text-gray">
+                    <p class="mb-4 fw-light text-secondary">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Lacus, fermentum amet faucibus sed id nisi lectus at.
                     </p>
@@ -205,7 +254,7 @@
                   <!-- Blog Info -->
                   <div class="mt-3">
                     <h4 class="h4 fw-bold">Ducati XDIAVEL S-73</h4>
-                    <p class="mb-4 fw-light text-gray">
+                    <p class="mb-4 fw-light text-secondary">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Lacus, fermentum amet faucibus sed id nisi lectus at.
                     </p>
@@ -226,11 +275,11 @@
       <!-- Latest News Area End Here -->
 
       <!-- Testimonial Area Start Here -->
-      <section id="testimonial-area" class="py-5">
+      <section id="testimonial-area" class="py-4 py-sm-5">
         <div class="container px-3 px-sm-0">
           <!-- Section Intro -->
           <div class="section-intro text-center">
-            <h2 class="h1 fw-bold">
+            <h2 class="h2 fw-bold">
               Happy <span class="text-orange">Clients says</span>
             </h2>
           </div>
@@ -243,7 +292,7 @@
                   <!-- Image -->
                   <img src="images/user-1.png" alt="user" class="img-fluid" />
                   <!-- Feedback text -->
-                  <p class="fw-light mt-4 text-gray">
+                  <p class="fw-light mt-4 text-secondary">
                     Slate helps you see how many more days you need to work to
                     reach your financial goal for the month and year.
                   </p>
@@ -270,7 +319,7 @@
                   <!-- Image -->
                   <img src="images/user-2.png" alt="user" class="img-fluid" />
                   <!-- Feedback text -->
-                  <p class="fw-light mt-4 text-gray">
+                  <p class="fw-light mt-4 text-secondary">
                     Slate helps you see how many more days you need to work to
                     reach your financial goal for the month and year.
                   </p>
@@ -297,7 +346,7 @@
                   <!-- Image -->
                   <img src="images/user-3.png" alt="user" class="img-fluid" />
                   <!-- Feedback text -->
-                  <p class="fw-light mt-4 text-gray">
+                  <p class="fw-light mt-4 text-secondary">
                     Slate helps you see how many more days you need to work to
                     reach your financial goal for the month and year.
                   </p>
@@ -327,7 +376,7 @@
         <div class="container px-3 px-sm-0">
           <!-- Section Intro -->
           <div class="section-intro text-center">
-            <h2 class="h1 fw-bold">
+            <h2 class="h2 fw-bold">
               Frequently Asked <span class="text-orange">Questions</span>
             </h2>
           </div>
@@ -369,7 +418,7 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body pt-0">
-                      <p class="fw-light text-gray">
+                      <p class="fw-light text-secondary">
                         Safety First! Always obey the rules of the road. Obey
                         all traffic signals, signs, and laws. Get in the mindset
                         of “driving” your bike—not just “riding” your bike. This
@@ -407,7 +456,7 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body pt-0">
-                      <p class="fw-light text-gray">
+                      <p class="fw-light text-secondary">
                         Safety First! Always obey the rules of the road. Obey
                         all traffic signals, signs, and laws. Get in the mindset
                         of “driving” your bike—not just “riding” your bike. This
@@ -445,7 +494,7 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body pt-0">
-                      <p class="fw-light text-gray">
+                      <p class="fw-light text-secondary">
                         Safety First! Always obey the rules of the road. Obey
                         all traffic signals, signs, and laws. Get in the mindset
                         of “driving” your bike—not just “riding” your bike. This
@@ -483,7 +532,7 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body pt-0">
-                      <p class="fw-light text-gray">
+                      <p class="fw-light text-secondary">
                         Safety First! Always obey the rules of the road. Obey
                         all traffic signals, signs, and laws. Get in the mindset
                         of “driving” your bike—not just “riding” your bike. This
