@@ -21,11 +21,11 @@ body {
   color: #e76f51;
 }
 
-.section-intro {
+.section-intro h6 {
   position: relative;
 }
 
-.section-intro::after {
+.section-intro h6::after {
   content: '';
   position: absolute;
   bottom: -6px;
