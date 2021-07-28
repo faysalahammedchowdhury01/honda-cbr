@@ -3,5 +3,12 @@
 /* Global */
 body {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+}
+
+.bg-dark-blue {
+  background-color: #264653;
+}
+
+.bg-orange {
+  background-color: #e76f51;
 }
