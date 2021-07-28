@@ -21,6 +21,14 @@ body {
   color: #e76f51;
 }
 
+.text-gray {
+  color: #6c6c6c;
+}
+
+.text-gray-light {
+  color: #e0e0e0;
+}
+
 .section-intro h6 {
   position: relative;
 }
